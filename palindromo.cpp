@@ -9,7 +9,7 @@ int main(){
     
     std::cout << "informe um texto para eu verificar se é um palindromo (escreva fim na outra linha para terminar)" << std::endl;
     
-    // como o C++ parece ser feito orinentado a gambiarra tive que fazer isso para tirar os espaços da mensagem
+    // tive que fazer isso para tirar os espaços da mensagem
     
     while(std::getline(std::cin, mensagem) && mensagem != "fim"){  //escreve a mensagem até sua mensagem ser um "fim"
         for(char c: mensagem){  // verifico cada uma das letras
